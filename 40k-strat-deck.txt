@@ -2,7 +2,16 @@ CARDSIZE=6.35,8.89
 
 LINK="strats-sources/commonStrats.xlsx"
 VISUAL=, 10, 10
-IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],{300/119}%,59.4%,{900/119}%,5.2%
+
+ROUNDRECT=1,0%,0%,100%,{902/9}%,#FFFFFF,#000000,0.1
+;[Background]Roundrect
+
+ROUNDRECT=1,{1100/643}%,{11/9}%,{62200/643}%,98%,#FFFFFF
+
+IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],{1600/643}%,{535/9}%,{4900/643}%,{46/9}%
 ;TimingText
-TEXT="1-{(TIMING)}",[TIMING],{700/51}%,59.4%,{28300/357}%,5.4%,LEFT
+
+TEXT="1-{(TIMING)}",[TIMING],{8800/643}%,{535/9}%,{51000/643}%,{49/9}%,LEFT
+;[Background]Roundrect(snap)
+
 ENDVISUAL
