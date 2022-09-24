@@ -4,7 +4,7 @@ LINK="strats-sources/commonStrats.xlsx"
 VISUAL=, 10, 10
 
 ;[Background]Roundrect(locked)
-ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
+ROUNDRECT="1-{(TITLE)}",0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
 
 ;[StratSource]Image-StratSource
 IMAGE="1-{(TIMINGLOGO)}",[SOURCELOGO],5.6,0.1,0.5,0.5
@@ -15,25 +15,25 @@ HTMLFONT=Font-CardTitle,Arial,8,B,#000000
 HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,4,1,,0,,100,Font-CardTitle
 
 ;[CostValue]HTMLFont-CostValue(locked)
-HTMLFONT=Font-CostValue,Stencil,40,,#000000
+HTMLFONT=Font-CostValue,Stencil,50,,#000000
 ;[CostValue]HTMLText-CostValue(locked)
-HTMLTEXT="1-{(COST)}",[COST],2.9,2,2,5,,0,,100,Font-CostValue
+HTMLTEXT="1-{(COST)}",[COST],2.7,1.5,2,5,,0,,100,Font-CostValue
 
 ;[Timing]Image
-IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,4.8,0.5,0.5
+IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,3.8,0.5,0.5
 ;[Timing]HTMLFont-TimingTitle(locked)
 HTMLFONT=Font-TimingTitle,Stencil,8,,#000000
 ;[Timing]HTMLText-Timing(locked)
-HTMLTEXT="1-{(TIMING)}",[TIMING],0.7,4.8,5.6,1,,0,,100,Font-TimingTitle
+HTMLTEXT="1-{(TIMING)}",[TIMING],0.7,3.8,5.6,1.3,,0,,100,Font-TimingTitle
 
 ;[Description]HTMLFont-Description(locked)
 HTMLFONT=Font-Description,Arial,8,,#000000,justify
 ;[Description]HTMLText-Description(locked)
-HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],0.1,6,6.1,2,,0,,100,Font-Description
+HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],0.1,4.5,6.1,4,,0,,100,Font-Description
 
 ;[Copyright]HTMLFont-Copyright
 HTMLFONT=Font-Copyright,Imprint MT Shadow,6,I,#000000,left
 ;[Copyright]HTMLText-Copyright
-HTMLTEXT="1-{(DESCRIPTION)}","Unofficial Warhammer Material by MacReiben",0.2,8.58,6.1,0.25,,0,,100,Font-Copyright
+HTMLTEXT="1-{(DESCRIPTION)}","Unofficial Warhammer Material by MacReiben",0.2,8.58,5.5,0.25,,0,,100,Font-Copyright
 
 ENDVISUAL
