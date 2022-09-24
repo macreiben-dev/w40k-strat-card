@@ -5,10 +5,13 @@ VISUAL=, 10, 10
 ;[Background]Roundrect
 ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.1
 
+;[StratSource]Image-StratSource
+IMAGE="1-{(TIMINGLOGO)}",[SOURCELOGO],5.3,0.1,0.5,0.5
+
 ;[CardTitle]HTMLFont-Title(locked)
 HTMLFONT=Font-CardTitle,Arial,8,,#000000
 ;[CardTitle]HTMLText-Title(locked)
-HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,5,1,,0,,100,Font-CardTitle
+HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,4,1,,0,,100,Font-CardTitle
 
 ;[Timing]Image
 IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,4.8,0.5,0.5
