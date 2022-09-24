@@ -5,14 +5,14 @@ VISUAL=, 10, 10
 ;[Background]Roundrect
 ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.1
 
-;[CardTitle]HTMLFont-Title
+;[CardTitle]HTMLFont-Title(locked)
 HTMLFONT=Font-CardTitle,Arial,8,,#000000
-;[CardTitle]HTMLText-Title
-HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,6,1,,0,,100,Font-CardTitle
+;[CardTitle]HTMLText-Title(locked)
+HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,5,1,,0,,100,Font-CardTitle
 
 ;[Timing]Image
 IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,4.8,0.5,0.5
-;[Timing]HTMLFont-TimingTitle
+;[Timing]HTMLFont-TimingTitle(locked)
 HTMLFONT=Font-TimingTitle,Stencil,8,,#000000
 ;[Timing]HTMLText-Timing(locked)
 HTMLTEXT="1-{(TIMING)}",[TIMING],0.7,4.8,5.6,1,,0,,100,Font-TimingTitle
