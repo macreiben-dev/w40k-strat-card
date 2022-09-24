@@ -3,7 +3,7 @@ CARDSIZE=6.35,8.89
 LINK="strats-sources/commonStrats.xlsx"
 VISUAL=, 10, 10
 ;[Background]Roundrect
-ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.1
+ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
 
 ;[StratSource]Image-StratSource
 IMAGE="1-{(TIMINGLOGO)}",[SOURCELOGO],5.3,0.1,0.5,0.5
