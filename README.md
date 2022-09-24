@@ -6,7 +6,11 @@ Seule les armées dont je possèdes les codex seront documentées.
 
 ## Utilisation
 
-Le fichier commonStrat.xlx contient les stratagèmes communs à toues les armées.
+* Le fichier **commonStrat.xlx** contient les stratagèmes du livre de règle.
+* le fichier **40k-strat-deck.txt** contient la configuration NANDeck pour générer les cartes.
+  *  La première ligne du fichier indique le chemin vers le fichier excel qui sera utilisé comme source de données.
+
+## Récupérer le générateur
 
 Le générateur repose sur un programme appelé Nandeck qui génère des cartes à partir de fichier Excel.
 
