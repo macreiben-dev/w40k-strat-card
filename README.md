@@ -15,3 +15,8 @@ Seule les armées dont je possèdes les codex seront documentées.
 Le générateur repose sur un programme appelé Nandeck qui génère des cartes à partir de fichier Excel.
 
 [Télécharger Nandeck ici](https://www.nandeck.com)
+
+## Annexe
+
+* [Les caractères accentués en HTML](https://www.journaldunet.com/solutions/dsi/1195751-accents-caracteres-speciaux-html/)
+* [Les code couleurs en HTML](https://htmlcolorcodes.com/fr/)
