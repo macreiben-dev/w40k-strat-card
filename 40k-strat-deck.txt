@@ -8,6 +8,10 @@ ROUNDRECT="1-{(TITLE)}",0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
 
 ;[StratSource]Image-StratSource
 IMAGE="1-{(TIMINGLOGO)}",[SOURCELOGO],5.6,0.1,0.5,0.5
+;[StratSource]HTMLFont-RulebookPage
+HTMLFONT=Font-RulebookPage,Arial,8,B,#000000
+;[CardTitle]HTMLText-RulebookPage(locked)
+HTMLTEXT="1-{(PAGEREFERENCE)}",[PAGEREFERENCE],5.6,0.6,4,0.4,,0,,100,Font-RulebookPage
 
 ;[CardTitle]HTMLFont-Title(locked)
 HTMLFONT=Font-CardTitle,Arial,8,B,#000000
