@@ -2,7 +2,8 @@ CARDSIZE=6.35,8.89
 
 LINK="strats-sources/commonStrats.xlsx"
 VISUAL=, 10, 10
-;[Background]Roundrect
+
+;[Background]Roundrect(locked)
 ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
 
 ;[StratSource]Image-StratSource
@@ -12,6 +13,11 @@ IMAGE="1-{(TIMINGLOGO)}",[SOURCELOGO],5.3,0.1,0.5,0.5
 HTMLFONT=Font-CardTitle,Arial,8,,#000000
 ;[CardTitle]HTMLText-Title(locked)
 HTMLTEXT="1-{(TITLE)}",[TITLE],0.4,0.1,4,1,,0,,100,Font-CardTitle
+
+;[CostValue]HTMLFont-CostValue(locked)
+HTMLFONT=Font-CostValue,Stencil,40,,#000000
+;[CostValue]HTMLText-CostValue(locked)
+HTMLTEXT="1-{(COST)}",[COST],2.9,2,5,5,,0,,100,Font-CostValue
 
 ;[Timing]Image
 IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,4.8,0.5,0.5
