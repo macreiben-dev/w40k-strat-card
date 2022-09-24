@@ -3,11 +3,11 @@ CARDSIZE=6.35,8.89
 LINK="strats-sources/commonStrats.xlsx"
 VISUAL=, 10, 10
 ;[Background]Roundrect
-ROUNDRECT=1,{200/643}%,{1/3}%,{63800/643}%,{899/9}%,#000000,#FFFFFF,0.1
+ROUNDRECT=1,0,0,6.35,8.89,#000000,#FFFFFF,0.1
 ;[Timing]Image
-IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],{1200/643}%,{164/3}%,{4900/643}%,{46/9}%
-;HTMLFont-TimingTitle
+IMAGE="1-{(TIMINGLOGO)}",[TIMINGLOGO],0.1,4.8,0.5,0.5
+;[Timing]HTMLFont-TimingTitle
 HTMLFONT=Font-TimingTitle,Stencil,8,,#000000
 ;[Timing]HTMLText-Timing(locked)
-HTMLTEXT="1-{(TIMING)}",[TIMING],{6200/643}%,{490/9}%,{56800/643}%,{37/3}%,#FFFFFF,0,,100,Font-TimingTitle,Font-TimingTitle
+HTMLTEXT="1-{(TIMING)}",[TIMING],0.7,4.8,5.6,1,#FFFFFF,0,,100,Font-TimingTitle,Font-TimingTitle
 ENDVISUAL
