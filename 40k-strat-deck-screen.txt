@@ -31,8 +31,12 @@ HTMLTEXT=[allcards],[UPDATEDATE],4,8,2,0.8,,0,B,100,Font-UpdateDate
 
 ;[CardNumber]HTMLFont-CardNumber
 HTMLFONT=Font-CardNumber,Arial,8,,#000000,left
+;[CardNumber]HTMLFont-TotalCardNumber
+HTMLFONT=Font-CardNumber,Arial,8,I,#000000,left
 ;[CardNumber]HTMLText-CardNumber
-HTMLTEXT=[allcards],[CARDNUMBER],0.2,8,2,0.8,,0,B,100,Font-CardNumber
+HTMLTEXT=[allcards],[CARDNUMBER],1,8,2,0.8,,0,B,100,Font-CardNumber
+;[TotalCardNumber]HTMLText-TotalCardNumber
+HTMLTEXT=[allcards],[TOTALCARDID],0.3,8,0.4,0.8,,0,B,100,Font-CardNumber
 
 ENDLAYER
 
