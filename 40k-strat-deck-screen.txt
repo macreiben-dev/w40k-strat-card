@@ -1,30 +1,19 @@
 CARDSIZE=6.35,8.89
 
+[allcards] = "1-{(Source)}"
+
 LINK="strats-sources/common_proto.xlsx"
 VISUAL=, 10, 10
 
-LAYER = 100
-
 ;[BorderCard]Roundrect(locked)
-ROUNDRECT="1-{(TITLE)}",0,0,6.35,8.89,,,0.05, 9
-
-ENDLAYER
-
-LAYER = 100
+ROUNDRECT=[allcards],0,0,6.35,8.89,,,0.05, 9
 
 ;[StratScreenshot]Image-StratScreenshot(locked)
-IMAGE="1-{(StratScreenshot)}",[STRATSCREENSHOT],0.2,1.0,6.0,8,0,PNU
+IMAGE=[allcards],[STRATSCREENSHOT],0.2,1.0,6.0,8,0,PNU
 
-ENDLAYER
-
-
-LAYER = 100
-
-;[Header]Source-HeaderTitleFont(locked)
+;[HeaderTitle]HTMLFont-HeaderTitle
 HTMLFONT=Font-HeaderTitle,Stencil,22,,#000000
-;[Header]Source-HeaderTitleText(locked)
-HTMLTEXT="1-{(TIMING)}",[SOURCE],0.7,0.1,5.6,2.5,,0,,100,Font-HeaderTitle
-
-ENDLAYER
+;[HeaderTitle]HTMLText-HeaderTitle
+HTMLTEXT=[allcards],[SOURCE],0.7,0.1,5.6,0.8,,0,,100,Font-HeaderTitle
 
 ENDVISUAL
