@@ -2,7 +2,7 @@ CARDSIZE=6.35,8.89
 
 [allcards] = "1-{(Source)}"
 
-LINK="strats-sources/strat_v10.xlsx"
+LINK="strats-sources/v10/strat_v10.xlsx"
 VISUAL=, 10, 10
 
 LAYER = 100
