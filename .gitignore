@@ -1,2 +1,5 @@
 \~*
 temp_*
+*.dll
+*.ini
+curl.exe
