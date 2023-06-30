@@ -3,4 +3,5 @@ temp_*
 *.dll
 *.ini
 *.pdf
+*.exe
 curl.exe

@@ -6,8 +6,11 @@ Seule les armées dont je possèdes les codex seront documentées.
 
 ## Utilisation
 
-* Le fichier **commonStrat.xlx** contient les stratagèmes du livre de règle.
-* le fichier **40k-strat-deck.txt** contient la configuration NANDeck pour générer les cartes.
+* Aller dans le dossier **strat-sources**
+* Selectionner la version
+  * *Attention seule la version en cours est maintenue*
+* Le fichier **strat_v10.xlsx** contient les stratagèmes.
+* le fichier **40k-v10-strat-deck.txt** contient la configuration NANDeck pour générer les cartes.
   *  La première ligne du fichier indique le chemin vers le fichier excel qui sera utilisé comme source de données.
 
 ## Récupérer le générateur
