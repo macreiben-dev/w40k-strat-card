@@ -1,0 +1,14 @@
+CARDSIZE=6.35,8.89
+
+LINK="strats-sources/common_proto.xlsx"
+VISUAL=, 10, 10
+
+;[Background]Roundrect(locked)
+ROUNDRECT="1-{(TITLE)}",0,0,6.35,8.89,#000000,#FFFFFF,0.05,9
+
+;[ScreenShotContainer]Rectangle
+RECTANGLE = "1-{(StratScreenshot)}", 0.1, 0.1, 6.1, 8.5, #0000FF
+;[StratScreenshot]Image-StratScreenshot
+IMAGE="1-{(StratScreenshot)}",[STRATSCREENSHOT],0.3,0.1,5.8,8,0,PN
+
+ENDVISUAL
