@@ -1,6 +1,6 @@
 # W40K Strat Card
 
-Ce projet a pour but de rendre accessible les stratagèmes pour jouer à warhammer 40K v9.
+Ce projet a pour but de rendre accessible les stratagèmes pour jouer à Warhammer 40K.
 
 Seule les armées dont je possèdes les codex seront documentées.
 
@@ -18,5 +18,6 @@ Le générateur repose sur un programme appelé Nandeck qui génère des cartes 
 
 ## Annexe
 
+* Version de nanDECK utilisée 1.27.2
 * [Les caractères accentués en HTML](https://www.journaldunet.com/solutions/dsi/1195751-accents-caracteres-speciaux-html/)
 * [Les code couleurs en HTML](https://htmlcolorcodes.com/fr/)
